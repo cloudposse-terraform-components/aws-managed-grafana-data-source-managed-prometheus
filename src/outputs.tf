@@ -1,4 +1,5 @@
-output "mock" {
-  description = "Mock output example for the Cloud Posse Terraform component template"
-  value       = local.enabled ? "hello ${basename(abspath(path.module))}" : ""
+output "uid" {
+  # The output "id" includes orgId (orgId:uid). We only want uid
+  value       = split(":", grafana_data_source.managed_prometheus[0].id)[1]
+  description = "The UID of this dashboard"
 }
