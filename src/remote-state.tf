@@ -1,6 +1,6 @@
 module "prometheus" {
   source  = "cloudposse/stack-config/yaml//modules/remote-state"
-  version = "1.5.0"
+  version = "1.8.0"
 
   component = var.prometheus_component_name
 
