@@ -6,7 +6,7 @@ tags:
   - provider/grafana
 ---
 
-# Component: `managed`
+# Component: `managed-grafana-data-source-managed-prometheus`
 
 This component is responsible for provisioning an Amazon Managed Prometheus data source for an Amazon Managed Grafana
 workspace.
