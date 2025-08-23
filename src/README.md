@@ -140,7 +140,7 @@ components:
 ## References
 
 
-- [cloudposse/terraform-aws-components](https://github.com/cloudposse/terraform-aws-components/tree/main/modules/managed-grafana/data-source/managed-prometheus) - Cloud Posse's upstream component
+- [cloudposse-terraform-components](https://github.com/orgs/cloudposse-terraform-components/repositories) - Cloud Posse's upstream component
 
 
 
